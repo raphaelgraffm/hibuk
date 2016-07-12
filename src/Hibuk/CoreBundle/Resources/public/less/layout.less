@@ -1,0 +1,107 @@
+@import "parameters";
+
+/**
+ * Remise a zero du box model
+ */
+#mise_a_zero {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#border_test {
+	border: 1px solid red;
+}
+
+/**
+ * Alignement vertical par rapport a l'element parent
+ */
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+       -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+         -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+body {
+	#mise_a_zero;
+	background-color: @background;
+}
+
+header {
+	#mise_a_zero;
+	height: @header_height;
+	width: 100%;
+	padding: 20px;
+
+	vertical-align: middle;
+	text-align: center;
+
+	#entete {
+		#mise_a_zero;
+		.vertical-align;
+		float: left;
+
+		#hibuk_logo {
+			#mise_a_zero;
+			height: 100%;
+			display: inline;
+		}
+
+		#hibuk_name {
+			#mise_a_zero;
+			display: inline;
+			height: @name_height_percentage;
+			padding-left: 20px;
+		}
+	}
+
+	nav {
+		#mise_a_zero;
+		.vertical-align;
+		float: right;
+		margin-right: 20px; 
+		ul {
+			li {
+				#mise_a_zero;
+				display: inline;
+
+				a {
+					#mise_a_zero;
+					text-decoration: none;
+					color: @vert_sombre;
+					font-family: 'Arial Rounded MT Bold';
+					font-size: @nav_font_height;
+					margin-right: @space_between_nav_items;
+					&:last {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+
+	#connexion {
+		padding: 7px;
+		border: 2px solid @vert_sombre;
+		border-radius: 5px;
+	}
+}
+
+
+main {
+	#mise_a_zero;
+	padding: 20px;
+}
+
+@font-face {
+font-family: 'Arial Rounded MT Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Arial Rounded MT Bold'), url('ARLRDBD_0.woff') format('woff');
+}
+
+

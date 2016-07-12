@@ -1,0 +1,3 @@
+parameters:
+    node_bin: /usr/local/bin/node # Chemin vers le binaire node (pour LESS et Assetic)
+    node_modules: /usr/local/lib/node_modules # Chemin vers le dossier node_modules (pour LESS et Assetic)

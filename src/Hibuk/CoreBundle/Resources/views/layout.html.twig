@@ -1,0 +1,42 @@
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, user-scalable=no"/>
+		<title>
+			{% block title %}Hibuk{% endblock %}
+		</title>
+		{% block stylesheets %}
+			{% stylesheets filter='less,cssrewrite,scssphp'
+			  'bundles/hibukcore/less/layout.less'
+			  output='css/styles.css'
+			%}
+				<link rel="stylesheet" href="{{ asset_url }}" type="text/css" />
+			{% endstylesheets %}
+		{% endblock %}
+	</head>
+
+	<body>
+		<header>
+			<div id="entete">
+				<img id="hibuk_logo" src="{{ asset('bundles/hibukcore/images/identity/logo.svg') }}" alt="Hibuk"/>
+				<img id="hibuk_name" src="{{ asset('bundles/hibukcore/images/identity/nom.svg') }}" alt="Hibuk"/>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#">Qu'est-ce que Hibuk ?</a></li>
+					<li><a href="#">Estimer un objet</a></li>
+					<li><a id="connexion" href="#">Connexion</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			{% block body %}{% endblock %}
+		</main>
+
+		{% block javascript %}
+		{% endblock %}
+	</body>
+
+</html>
