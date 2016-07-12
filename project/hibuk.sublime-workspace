@@ -1,0 +1,701 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"OCPlat",
+				"OCPlatformBundle:Advert:menu.html.twig"
+			],
+			[
+				"User",
+				"UserBundle	(User.php)"
+			],
+			[
+				"Constr",
+				"ConstraintValidator"
+			],
+			[
+				"Cate",
+				"CategoryType	(CategoryType.php)"
+			],
+			[
+				"Image",
+				"ImageType"
+			],
+			[
+				"advert",
+				"advertSkill"
+			],
+			[
+				"OCPlatform",
+				"OCPlatformBundle:AdvertSkill"
+			],
+			[
+				"OCPla",
+				"OCPlatformBundle:Advert"
+			],
+			[
+				"OCP",
+				"OCPlatformBundle:Advert:index.html.twig"
+			],
+			[
+				"Advert",
+				"AdvertSkill"
+			],
+			[
+				"set",
+				"setTitle	(AdvertController.php)"
+			],
+			[
+				"OC",
+				"OCPlatformBundle:AdvertSkill	(AdvertController.php)"
+			],
+			[
+				"advert_",
+				"advert_skill"
+			],
+			[
+				"adv",
+				"advert_skills	(AdvertController.php)"
+			],
+			[
+				"Appl",
+				"ApplicationMailer	(ApplicationMailer.php)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cate",
+				"categories"
+			],
+			[
+				"appli",
+				"application1"
+			],
+			[
+				"section",
+				"\\section*{title}	latex-document"
+			],
+			[
+				"usep",
+				"\\usepackage{package}	latex-document"
+			],
+			[
+				"sectio",
+				"\\section*{title}	latex-document"
+			],
+			[
+				"sec",
+				"\\section*{title}	latex-document"
+			],
+			[
+				"make",
+				"\\maketitle	latex-document"
+			],
+			[
+				"dt",
+				"data_img"
+			],
+			[
+				"M_til",
+				"M_tilde"
+			],
+			[
+				"affiche",
+				"affiche_U_Utilde"
+			],
+			[
+				"ecr",
+				"ecrire_fichier"
+			],
+			[
+				"maillage",
+				"maillage_plat"
+			],
+			[
+				"L",
+				"l"
+			],
+			[
+				"diff_",
+				"diff_patch_affiche"
+			],
+			[
+				"mat_derivee",
+				"mat_derivee_seconde"
+			],
+			[
+				"largeur_",
+				"largeur_min"
+			],
+			[
+				"longueu",
+				"longueurs_zones"
+			],
+			[
+				"indic",
+				"indice_bord_droit"
+			],
+			[
+				"indice",
+				"indice_bord_gauche"
+			],
+			[
+				"prix",
+				"prix_recursif"
+			],
+			[
+				"affic",
+				"afficheNet"
+			],
+			[
+				"illum",
+				"illumination_extern"
+			],
+			[
+				"trace",
+				"trace_degres"
+			],
+			[
+				"moyenne",
+				"moyenne_actif"
+			],
+			[
+				"tra",
+				"traceErreur"
+			],
+			[
+				"blo",
+				"block_diag"
+			],
+			[
+				"dia",
+				"block_diag"
+			],
+			[
+				"calc",
+				"calcDistance"
+			],
+			[
+				"larg",
+				"largeurImage"
+			],
+			[
+				"lar",
+				"largeurImage"
+			],
+			[
+				"Fourier_",
+				"Fourier_dx"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/Raphael/Sites/hibuk/README.md",
+			"settings":
+			{
+				"buffer_size": 7,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hibuk.sublime-project",
+			"settings":
+			{
+				"buffer_size": 70,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "pack ins",
+		"selected_items":
+		[
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac con l",
+				"Package Control: Install Package"
+			],
+			[
+				"pac co in",
+				"Package Control: Install Package"
+			],
+			[
+				"pac vi",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"pac co",
+				"Package Control: Install Package"
+			],
+			[
+				"pack res vi",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"Pack In",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 449.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Raphael/Sites/hibuk",
+		"/Users/Raphael/Sites/hibuk/project"
+	],
+	"file_history":
+	[
+		"/Users/Raphael/Sites/test_angular/styles.css",
+		"/Users/Raphael/Sites/test_angular/systemjs.config.js",
+		"/Users/Raphael/Sites/test_angular/index.html",
+		"/Users/Raphael/Sites/test_angular/app/main.ts",
+		"/Users/Raphael/Sites/test_angular/app/app.component.ts",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/TypeScript.sublime-settings",
+		"/Users/Raphael/Sites/test_angular/typings.json",
+		"/Users/Raphael/Sites/test_angular/tsconfig.json",
+		"/Users/Raphael/Sites/test_angular/package.json",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
+		"/Users/Raphael/Sites/test_angular/project/test_angular.sublime-project",
+		"/Users/Raphael/Sites/test_symfony/app/config/config.yml",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Controller/AdvertController.php",
+		"/Users/Raphael/Sites/test_symfony/app/config/routing_dev.yml",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/public/css/main.css",
+		"/Users/Raphael/Sites/test_symfony/src/OC/UserBundle/Resources/translations/messages.de.yml",
+		"/Users/Raphael/Sites/test_symfony/src/OC/UserBundle/Resources/translations/messages.fr.yml",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/views/Advert/translation.html.twig",
+		"/Users/Raphael/Sites/test_symfony/app/config/security.yml",
+		"/Users/Raphael/Sites/test_symfony/app/config/routing.yml",
+		"/Users/Raphael/Sites/test_symfony/src/OC/UserBundle/Resources/views/layout.html.twig",
+		"/Users/Raphael/Sites/test_symfony/app/Resources/views/layout.html.twig",
+		"/Users/Raphael/Sites/test_symfony/src/OC/UserBundle/OCUserBundle.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/UserBundle/Entity/User.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/UserBundle/Resources/views/Security/login.html.twig",
+		"/Users/Raphael/Sites/test_symfony/app/AppKernel.php",
+		"/Users/Raphael/Sites/test_symfony/vendor/friendsofsymfony/user-bundle/Model/User.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/UserBundle/Controller/SecurityController.php",
+		"/Users/Raphael/Sites/test_symfony/vendor/friendsofsymfony/user-bundle/FOSUserBundle.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/UserBundle/DataFixtures/ORM/LoadUser.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/config/routing.yml",
+		"/Users/Raphael/Sites/test_symfony/app/config/config_dev.yml",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/config/services.yml",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Entity/Advert.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Validator/AntiFlood.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Validator/AntiFloodValidator.php",
+		"/Users/Raphael/Sites/test_symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/ConstraintValidator.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Entity/Image.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Form/AdvertType.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Form/ImageType.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/DataFixtures/ORM/LoadAdvert.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Entity/Category.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/views/Advert/form.html.twig",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Form/CategoryType.php",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Raphael/Sites/test_symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/views/Advert/add.html.twig",
+		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/IPPEX/Journal de bord/questions.txt",
+		"/Users/Raphael/Sites/test_symfony/antonio",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Repository/AdvertRepository.php",
+		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/IPPEX/Journal de bord/journal.tex",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Entity/AdvertSkill.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/views/Advert/edit.html.twig",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/views/Advert/delete.html.twig",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/views/Advert/view.html.twig",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/DataFixtures/ORM/LoadSkill.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/DataFixtures/ORM/LoadCategory.php",
+		"/Users/Raphael/Sites/test_symfony/web/app.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Entity/Application.php",
+		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/IPPEX/Journal de bord/matthieu",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Email/ApplicationMailer.php",
+		"/Users/Raphael/Sites/test_symfony/vendor/doctrine/orm/lib/Doctrine/ORM/QueryBuilder.php",
+		"/Users/Raphael/Sites/test_symfony/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Expr.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Repository/ApplicationRepository.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/views/layout.html.twig",
+		"/Users/Raphael/Sites/test_symfony/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php",
+		"/Users/Raphael/Downloads/barrage.dgibi",
+		"/Users/Raphael/Sites/test_symfony/src/OC/CoreBundle/Controller/DefaultController.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/CoreBundle/Resources/views/layout.html.twig",
+		"/Users/Raphael/Sites/test_symfony/src/OC/CoreBundle/Resources/views/Default/index.html.twig",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Entity/Skill.php",
+		"/Users/Raphael/Sites/test_symfony/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Collection.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Entity/Image.php~",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/PHP.sublime-settings",
+		"/Users/Raphael/Sites/test_symfony/var/SymfonyRequirements.php",
+		"/Users/Raphael/Sites/test_symfony/app/config/parameters.yml",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/AntiSpam/OCAntiSpam.php",
+		"/Users/Raphael/Sites/test_symfony/composer.json",
+		"/Users/Raphael/Sites/test_symfony/var/cache/dev/appDevDebugProjectContainer.php",
+		"/Users/Raphael/Sites/test_symfony/vendor/composer/autoload_namespaces.php",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/views/Advert/index.html.twig",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/views/Advert/menu.html.twig",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/views/Advert/byebye.html.twig",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/HTML (Twig).sublime-settings",
+		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Méthodes numériques/TP3/Rendu/rendu.tex",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/YAML.sublime-settings",
+		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/views/Default/index.html.twig",
+		"/Users/Raphael/Sites/test_symfony/src/AppBundle/AppBundle.php",
+		"/Users/Raphael/Sites/test_symfony/web/bundles/framework/css/exception.css",
+		"/Users/Raphael/Sites/test_symfony/README.md",
+		"/Users/Raphael/Sites/test_symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Bundle/BundleInterface.php",
+		"/Users/Raphael/Sites/test_symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Bundle/Bundle.php",
+		"/Users/Raphael/Sites/test_symfony/project/test_symfony.sublime-project",
+		"/Users/Raphael/upont/back/web/app.php",
+		"/Users/Raphael/upont/back/app/AppKernel.php",
+		"/Users/Raphael/upont/back/app/config/config.yml",
+		"/Users/Raphael/upont/back/.gitignore",
+		"/Users/Raphael/upont/back/src/KI/ClubinfoBundle/Resources/config/listeners.yml",
+		"/Users/Raphael/upont/back/src/KI/CoreBundle/Controller/BaseController.php",
+		"/Users/Raphael/upont/LICENSE.md",
+		"/Users/Raphael/upont/README.md",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/Themes/latex.tmTheme",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/Themes/php.tmTheme",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/Themes/cplusplus.tmTheme",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/C++.sublime-settings",
+		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/ScanPhone/scanphone/README.md",
+		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Contrat_anne/contrat.sublime-project",
+		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Contrat_anne/contrat_anne.tex",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Contrat_anne/caracteristiques/super_caracteristique.md",
+		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Méthodes numériques/TP3/TP3.sublime-project",
+		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Phy_Stat/Rendu/LaTeX/psy_stat.tex",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Phy_Stat/Rendu 2/LaTeX/psy_stat.tex",
+		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/ScanPhone/scanphone/C++/gradient/gradient.cpp",
+		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Imagerie Numerique/Seance 6/TP6_readSTP_exportUCD.py",
+		"/Users/Raphael/Documents/Web/test/test.html",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/Users/Raphael/Documents/C++/test.cpp",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/Raphael_themes/latex.tmTheme",
+		"/Users/Raphael/Documents/test_latex/test.tex",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/README.markdown"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Advert",
+			"();\n",
+			"Application",
+			")\n",
+			"form",
+			"em",
+			"FixtureInterface",
+			"Category",
+			"getOcPlatform_AntispamService",
+			"getTemplatingService",
+			"getTemplatin",
+			"\\\\\n",
+			" \n",
+			"non",
+			"produit",
+			"librairie",
+			".\n",
+			"gallinacée",
+			"\",",
+			"flamboyante",
+			"}\n",
+			"begin",
+			"language",
+			"\n\\",
+			"échange",
+			"gallinacée",
+			"de",
+			"gallinacée",
+			"suivantes",
+			"gallinacée",
+			"}\n",
+			"gallinacée",
+			"au",
+			"vérifiée",
+			"maketitle",
+			"chaotique",
+			"itérations",
+			"même",
+			"glouton",
+			"observe",
+			"}\n",
+			"paragraph",
+			"Physique",
+			"paragraph",
+			"statistique",
+			"eqnarray",
+			"eq",
+			"equation",
+			"section",
+			"19",
+			"plus_court_chemin_moyen",
+			"clustering_moyen",
+			"mat",
+			"M_tilde",
+			"affiche_maillage",
+			"];",
+			"0",
+			"();\n",
+			"complex",
+			"const",
+			"std",
+			"Image",
+			"Images",
+			");\n",
+			"key"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"equation"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Raphael/Sites/hibuk/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "hibuk.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 70,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 353.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "hibuk.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ff",
+				"~/Documents/Ponts/1A/Sem2/Algo/TPs/TP3bis/sources/fft.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/test_angular/project/test_angular.sublime-project"
+			],
+			[
+				"test_s",
+				"~/Sites/test_symfony/project/test_symfony.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

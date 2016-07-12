@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/Raphael/Sites/hibuk",
+			"folder_exclude_patterns":
+			[
+				"project"
+			],
+		},
+	]
+}
