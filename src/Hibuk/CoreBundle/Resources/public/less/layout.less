@@ -27,12 +27,12 @@
 }
 
 body {
-	#mise_a_zero;
+	&:extend(#mise_a_zero);
 	background-color: @background;
 }
 
 header {
-	#mise_a_zero;
+	&:extend(#mise_a_zero);
 	height: @header_height;
 	width: 100%;
 	padding: 20px;
@@ -41,18 +41,18 @@ header {
 	text-align: center;
 
 	#entete {
-		#mise_a_zero;
+		&:extend(#mise_a_zero);
 		.vertical-align;
 		float: left;
 
 		#hibuk_logo {
-			#mise_a_zero;
+			&:extend(#mise_a_zero);
 			height: 100%;
 			display: inline;
 		}
 
 		#hibuk_name {
-			#mise_a_zero;
+			&:extend(#mise_a_zero);
 			display: inline;
 			height: @name_height_percentage;
 			padding-left: 20px;
@@ -60,17 +60,17 @@ header {
 	}
 
 	nav {
-		#mise_a_zero;
+		&:extend(#mise_a_zero);
 		.vertical-align;
 		float: right;
 		margin-right: 20px; 
 		ul {
 			li {
-				#mise_a_zero;
+				&:extend(#mise_a_zero);
 				display: inline;
 
 				a {
-					#mise_a_zero;
+					&:extend(#mise_a_zero);
 					text-decoration: none;
 					color: @vert_sombre;
 					font-family: 'Arial Rounded MT Bold';
@@ -93,7 +93,7 @@ header {
 
 
 main {
-	#mise_a_zero;
+	&:extend(#mise_a_zero);
 	padding: 20px;
 }
 
