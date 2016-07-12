@@ -16,7 +16,7 @@
 /**
  * Alignement vertical par rapport a l'element parent
  */
-.vertical-align {
+.vertical-align() {
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -45,18 +45,23 @@ header {
 		.vertical-align;
 		float: left;
 
-		#hibuk_logo {
-			&:extend(#mise_a_zero);
-			height: 100%;
-			display: inline;
+		a {
+			text-decoration: none;
+
+			#hibuk_logo {
+				&:extend(#mise_a_zero);
+				height: 100%;
+				display: inline;
+			}
+
+			#hibuk_name {
+				&:extend(#mise_a_zero);
+				display: inline;
+				height: @name_height_percentage;
+				padding-left: 20px;
+			}
 		}
 
-		#hibuk_name {
-			&:extend(#mise_a_zero);
-			display: inline;
-			height: @name_height_percentage;
-			padding-left: 20px;
-		}
 	}
 
 	nav {
@@ -71,6 +76,7 @@ header {
 
 				a {
 					&:extend(#mise_a_zero);
+					position: relative;
 					text-decoration: none;
 					color: @vert_sombre;
 					font-family: 'Arial Rounded MT Bold';
@@ -78,6 +84,9 @@ header {
 					margin-right: @space_between_nav_items;
 					&:last {
 						margin-right: 0;
+					}
+					&:hover {
+						top: -@link_hover_trans;
 					}
 				}
 			}

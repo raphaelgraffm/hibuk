@@ -19,14 +19,16 @@
 	<body>
 		<header>
 			<div id="entete">
-				<img id="hibuk_logo" src="{{ asset('bundles/hibukcore/images/identity/logo.svg') }}" alt="Hibuk"/>
-				<img id="hibuk_name" src="{{ asset('bundles/hibukcore/images/identity/nom.svg') }}" alt="Hibuk"/>
+				<a href="#">
+					<img id="hibuk_logo" src="{{ asset('bundles/hibukcore/images/identity/logo.svg') }}" alt="Hibuk"/>
+					<img id="hibuk_name" src="{{ asset('bundles/hibukcore/images/identity/nom.svg') }}" alt="Hibuk"/>
+				</a>
 			</div>
 			<nav>
 				<ul>
-					<li><a href="#">Qu'est-ce que Hibuk ?</a></li>
-					<li><a href="#">Estimer un objet</a></li>
-					<li><a id="connexion" href="#">Connexion</a></li>
+					<li><a href="#">{{ 'header.what' | trans({}, 'layout') }}</a></li>
+					<li><a href="#">{{ 'header.estimate' | trans({}, 'layout') }}</a></li>
+					<li><a id="connexion" href="#">{{ 'header.connect' | trans({}, 'layout') }}</a></li>
 				</ul>
 			</nav>
 		</header>
