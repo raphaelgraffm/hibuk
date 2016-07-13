@@ -2,7 +2,8 @@
 
 	<head>
 		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, user-scalable=no"/>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<title>
 			{% block title %}Hibuk{% endblock %}
 		</title>
@@ -14,10 +15,11 @@
 				<link rel="stylesheet" href="{{ asset_url }}" type="text/css" />
 			{% endstylesheets %}
 		{% endblock %}
+		<script src="{{ asset('bundles/hibukcore/js/vendor/modernizr-custom.min.js') }}"></script>
 	</head>
 
 	<body>
-		<header>
+		<header class="clearfix">
 			<div id="entete">
 				<a href="#">
 					<img id="hibuk_logo" src="{{ asset('bundles/hibukcore/images/identity/logo.svg') }}" alt="Hibuk"/>
@@ -37,8 +39,8 @@
 			{% block body %}{% endblock %}
 		</main>
 
-		{% block javascript %}
-		{% endblock %}
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+		crossorigin="anonymous"></script>
+		{% block javascript %}{% endblock %}
 	</body>
-
 </html>

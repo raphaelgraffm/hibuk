@@ -1,15 +1,17 @@
 @import "parameters";
+@import (inline) "utilities/normalize.css";
+@import (inline) "utilities/boilerplate.css";
 
 /**
  * Remise a zero du box model
  */
-#mise_a_zero {
+#reset {
 	margin: 0;
 	padding: 0;
 	border: 0;
 }
 
-#border_test {
+#border_test() {
 	border: 1px solid red;
 }
 
@@ -27,12 +29,12 @@
 }
 
 body {
-	&:extend(#mise_a_zero);
+	&:extend(#reset);
 	background-color: @background;
 }
 
 header {
-	&:extend(#mise_a_zero);
+	&:extend(#reset);
 	height: @header_height;
 	width: 100%;
 	padding: 20px;
@@ -41,7 +43,7 @@ header {
 	text-align: center;
 
 	#entete {
-		&:extend(#mise_a_zero);
+		&:extend(#reset);
 		.vertical-align;
 		float: left;
 
@@ -49,13 +51,13 @@ header {
 			text-decoration: none;
 
 			#hibuk_logo {
-				&:extend(#mise_a_zero);
+				&:extend(#reset);
 				height: 100%;
 				display: inline;
 			}
 
 			#hibuk_name {
-				&:extend(#mise_a_zero);
+				&:extend(#reset);
 				display: inline;
 				height: @name_height_percentage;
 				padding-left: 20px;
@@ -65,17 +67,17 @@ header {
 	}
 
 	nav {
-		&:extend(#mise_a_zero);
+		&:extend(#reset);
 		.vertical-align;
 		float: right;
 		margin-right: 20px; 
 		ul {
 			li {
-				&:extend(#mise_a_zero);
+				&:extend(#reset);
 				display: inline;
 
 				a {
-					&:extend(#mise_a_zero);
+					&:extend(#reset);
 					position: relative;
 					text-decoration: none;
 					color: @vert_sombre;
@@ -102,15 +104,15 @@ header {
 
 
 main {
-	&:extend(#mise_a_zero);
+	&:extend(#reset);
 	padding: 20px;
 }
 
 @font-face {
-font-family: 'Arial Rounded MT Bold';
-font-style: normal;
-font-weight: normal;
-src: local('Arial Rounded MT Bold'), url('ARLRDBD_0.woff') format('woff');
+	font-family: 'Arial Rounded MT Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Arial Rounded MT Bold'), url('../fonts/arial_rounded_mt_bold.ttf');
 }
 
 
