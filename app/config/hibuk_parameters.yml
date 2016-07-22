@@ -1,3 +1,5 @@
 parameters:
-    node_bin: /usr/local/bin/node # Chemin vers le binaire node (pour LESS et Assetic)
-    node_modules: /usr/local/lib/node_modules # Chemin vers le dossier node_modules (pour LESS et Assetic)
+    node_bin: /usr/bin/nodejs # Chemin vers le binaire node (pour LESS et Assetic)
+    # node_bin: /usr/local/bin/node # Chemin vers le binaire node (pour LESS et Assetic)
+    node_modules: /var/www/html/hibuk/node_modules # Chemin vers le dossier node_modules (pour LESS et Assetic)
+    # node_modules: /usr/local/lib/node_modules # Chemin vers le dossier node_modules (pour LESS et Assetic)
