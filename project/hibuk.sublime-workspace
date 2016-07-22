@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"jquery",
+				"jquery_inclusion_script"
+			],
+			[
+				"clear",
+				"clearfix	(boilerplate.css)"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"vert",
+				"vertical-align"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"hibuk_",
+				"hibuk_name	(layout.html.twig)"
+			],
+			[
+				"style",
+				"stylesheets"
+			],
+			[
+				"char",
+				"charset	Attr"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
 				"OCPlat",
 				"OCPlatformBundle:Advert:menu.html.twig"
 			],
@@ -196,18 +240,34 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/Raphael/Sites/hibuk/README.md",
+			"file": "/Users/Raphael/Sites/hibuk/src/Hibuk/CoreBundle/Resources/views/layout.html.twig",
 			"settings":
 			{
-				"buffer_size": 7,
+				"buffer_size": 1456,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "hibuk.sublime-project",
+			"file": "/Users/Raphael/Sites/hibuk/web/bundles/hibukcore/less/layout.less",
 			"settings":
 			{
-				"buffer_size": 70,
+				"buffer_size": 1892,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Raphael/Sites/hibuk/src/Hibuk/CoreBundle/Resources/public/less/parameters.less",
+			"settings":
+			{
+				"buffer_size": 639,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Raphael/Sites/hibuk/.gitignore",
+			"settings":
+			{
+				"buffer_size": 261,
 				"line_ending": "Unix"
 			}
 		}
@@ -280,7 +340,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 431.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -302,10 +362,39 @@
 	"expanded_folders":
 	[
 		"/Users/Raphael/Sites/hibuk",
-		"/Users/Raphael/Sites/hibuk/project"
+		"/Users/Raphael/Sites/hibuk/src/Hibuk",
+		"/Users/Raphael/Sites/hibuk/src/Hibuk/CoreBundle",
+		"/Users/Raphael/Sites/hibuk/src/Hibuk/CoreBundle/Resources"
 	],
 	"file_history":
 	[
+		"/Users/Raphael/Sites/hibuk/.gitignore",
+		"/Users/Raphael/Sites/hibuk/web/.htaccess",
+		"/Users/Raphael/Sites/hibuk/web/bundles/hibukcore/less/utilities/boilerplate.css",
+		"/Users/Raphael/Sites/hibuk/web/bundles/hibukcore/less/utilities/normalize.css",
+		"/Users/Raphael/Sites/hibuk/src/Hibuk/CoreBundle/Resources/public/less/layout.less",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/LESS.sublime-settings",
+		"/Users/Raphael/Sites/hibuk/web/bundles/hibukcore/css/reset.css",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/ApacheConf.sublime-settings",
+		"/Users/Raphael/Sites/hibuk/web/css/styles.css",
+		"/Users/Raphael/Sites/hibuk/src/Hibuk/CoreBundle/Resources/views/Core/index.html.twig",
+		"/Users/Raphael/Sites/hibuk/app/config/config.yml",
+		"/Users/Raphael/Sites/hibuk/src/Hibuk/CoreBundle/Resources/translations/layout.fr.yml",
+		"/Users/Raphael/Sites/hibuk/web/app.php",
+		"/Users/Raphael/Sites/hibuk/src/Hibuk/CoreBundle/Resources/config/routing.yml",
+		"/Users/Raphael/Sites/hibuk/src/Hibuk/CoreBundle/Controller/CoreController.php",
+		"/Users/Raphael/Sites/hibuk/app/AppKernel.php",
+		"/Users/Raphael/Sites/hibuk/app/config/routing.yml",
+		"/Users/Raphael/Sites/hibuk/app/config/hibuk_parameters.yml",
+		"/Users/Raphael/Sites/hibuk/app/config/parameters.yml",
+		"/Users/Raphael/Sites/hibuk/app/config/config_dev.yml",
+		"/Users/Raphael/Sites/hibuk/web/bundles/framework/css/body.css",
+		"/Users/Raphael/Sites/hibuk/web/bundles/framework/css/styles.less",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/CSS3.sublime-settings",
+		"/Users/Raphael/Sites/hibuk/composer.json",
+		"/Users/Raphael/Sites/hibuk/README.md",
+		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/Raphael/Sites/hibuk/project/hibuk.sublime-project",
 		"/Users/Raphael/Sites/test_angular/styles.css",
 		"/Users/Raphael/Sites/test_angular/systemjs.config.js",
 		"/Users/Raphael/Sites/test_angular/index.html",
@@ -391,7 +480,6 @@
 		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/views/Advert/index.html.twig",
 		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/views/Advert/menu.html.twig",
 		"/Users/Raphael/Sites/test_symfony/src/OC/PlatformBundle/Resources/views/Advert/byebye.html.twig",
-		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
 		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/HTML (Twig).sublime-settings",
 		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Méthodes numériques/TP3/Rendu/rendu.tex",
 		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
@@ -407,33 +495,7 @@
 		"/Users/Raphael/upont/back/app/AppKernel.php",
 		"/Users/Raphael/upont/back/app/config/config.yml",
 		"/Users/Raphael/upont/back/.gitignore",
-		"/Users/Raphael/upont/back/src/KI/ClubinfoBundle/Resources/config/listeners.yml",
-		"/Users/Raphael/upont/back/src/KI/CoreBundle/Controller/BaseController.php",
-		"/Users/Raphael/upont/LICENSE.md",
-		"/Users/Raphael/upont/README.md",
-		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/Themes/latex.tmTheme",
-		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/Themes/php.tmTheme",
-		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/Themes/cplusplus.tmTheme",
-		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/C++.sublime-settings",
-		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/ScanPhone/scanphone/README.md",
-		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Contrat_anne/contrat.sublime-project",
-		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Contrat_anne/contrat_anne.tex",
-		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Contrat_anne/caracteristiques/super_caracteristique.md",
-		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Méthodes numériques/TP3/TP3.sublime-project",
-		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Phy_Stat/Rendu/LaTeX/psy_stat.tex",
-		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
-		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Phy_Stat/Rendu 2/LaTeX/psy_stat.tex",
-		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/ScanPhone/scanphone/C++/gradient/gradient.cpp",
-		"/Users/Raphael/Documents/Ponts/1A/Sem2_2/Imagerie Numerique/Seance 6/TP6_readSTP_exportUCD.py",
-		"/Users/Raphael/Documents/Web/test/test.html",
-		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
-		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
-		"/Users/Raphael/Documents/C++/test.cpp",
-		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/Raphael_themes/latex.tmTheme",
-		"/Users/Raphael/Documents/test_latex/test.tex",
-		"/Users/Raphael/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/README.markdown"
+		"/Users/Raphael/upont/back/src/KI/ClubinfoBundle/Resources/config/listeners.yml"
 	],
 	"find":
 	{
@@ -451,6 +513,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#mise_a_zero",
+			"mise_a_zero",
+			"	#",
 			"Advert",
 			"();\n",
 			"Application",
@@ -534,16 +599,103 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/Raphael/Sites/hibuk/README.md",
+					"file": "/Users/Raphael/Sites/hibuk/src/Hibuk/CoreBundle/Resources/views/layout.html.twig",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7,
+						"buffer_size": 1456,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1400,
+								1400
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 36.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/Raphael/Sites/hibuk/web/bundles/hibukcore/less/layout.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1724,
+								1724
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1423.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/Raphael/Sites/hibuk/src/Hibuk/CoreBundle/Resources/public/less/parameters.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 639,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								209
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/Raphael/Sites/hibuk/.gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 261,
 						"regions":
 						{
 						},
@@ -556,35 +708,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "hibuk.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 70,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								60,
-								60
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -693,7 +817,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 259.0,
+	"side_bar_width": 278.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

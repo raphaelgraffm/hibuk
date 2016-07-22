@@ -1,3 +1,7 @@
 hibuk_core:
     resource: "@HibukCoreBundle/Resources/config/routing.yml"
     prefix:   /
+
+hibuk_user:
+    resource: "@HibukUserBundle/Resources/config/routing.yml"
+    prefix:   /user
